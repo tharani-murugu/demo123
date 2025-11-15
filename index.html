@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="styleesheet" href="stylee.css" />
+</head>
+<body>
+    <header>
+        <div class="nav">
+
+        </div>
+        <ul class="navbar">
+            <li class="nav_item"><a href="#" class="nav_link">Recent</a></li>
+            <li class="nav_item"><a href="#" class="nav_link">Calandar</a></li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <h1>Add new data </h1>
+            <form action="/entry" method="POST">
+                <p class="form_input">
+                    <label for ="entry" class="form_label">Entry contents</label>
+                    <textarea name="content" id="entry" class="form_textarea"></textarea>
+                    <button class="form_submit">Add entry</button>
+                </p>
+            </form>
+        </section>
+        <h1>Recent post</h1>
+        <article>
+            <div>
+                <h2>A bit of a chill day today </h2>
+                <time datetime="01-12-2025">Dec 01</time>
+            </div>
+            <p>Today I couldn't do much programming,but that's Ok! can't be two awesome every day now!</p>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="footer_content">
+            <section class="left"></section>
+            <section class="right"></section>
+        </div>
+
+    </footer>
+</body>
+</html>
