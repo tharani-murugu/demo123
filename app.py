@@ -10,9 +10,7 @@ db=mongodb_client.db
 
 @app.route("/")
 def h():
-   return '''<h1>Welcome</h1>
-             <p><a href="/home">home page</p>
-          '''
+   return "<h1>Welcome</h1><p><a href='/home'>home page</p>"
 @app.route("/home")
 def home():
     username="tharani"
